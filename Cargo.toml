@@ -1,0 +1,13 @@
+[package]
+name = "stegsolve_rs"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+
+[dependencies]
+async-channel = "2.3.1"
+gtk = { version = "0.9.5", package = "gtk4", features = ["v4_12"] }
+
+[build-dependencies]
+glib-build-tools = "0.20.0"
